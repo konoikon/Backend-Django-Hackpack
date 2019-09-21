@@ -36,7 +36,7 @@ architecture of the data you will store in your database. For example:
 class Person(models.Model):
     
     name = models.CharField(max_length=100)
-    # more fields here
+    # probably more fields here
 
 ```
 `Person` is a `Model` (inherited by the official Django class) that has a name of type `CharField`
@@ -68,8 +68,8 @@ you make (or you could use a tool such as [Postman](https://www.getpostman.com/)
 
 ## How to use this Hackpack
 
-1. Click the *Use Template* button on this repo. This will automatically create your own repository
-that uses this source code.
+1. Click the *Use this template* button on this repo. Then follow the instructions to create your own repository
+using this code.
 2. `git clone` the repository to your local machine
 3. `cd` into the `hackpack` directory
 4. Create a new python [virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/).
@@ -80,6 +80,26 @@ that uses this source code.
 
 You're all set!
 
+## Now What?!
+
+The process of writing an API in a Django App is simple:
+1. Write your models in `models.py`
+2. Define your serializers in `serializers.py`
+3. Write your views in `views.py`
+4. Connect the views to respective urls in `urls.py`
+5. Repeat.
+
+Check out the files already provided to see an example of what your code could look like.
+
+## Official Documentation
+
+Although we try our best to provide you with the essentials to get started, there is
+so much we can do. This is why it is **essential** to give you links to the original Django Documentation 
+and `djangorestframework` documentation.
+
+-[Official Django Documentation](https://docs.djangoproject.com/en/2.2/)
+-[Official Rest Framework Documentation](https://www.django-rest-framework.org/)
+
 ## Requirements
 
-- You should have Python installed to use this hackpack. You can find it [here](https://www.python.org).
+- You should have Python installed to use this hackpack. You can download it [here](https://www.python.org).
