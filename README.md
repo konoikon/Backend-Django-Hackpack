@@ -97,8 +97,8 @@ Although we try our best to provide you with the essentials to get started, ther
 so much we can do. This is why it is **essential** to give you links to the original Django Documentation 
 and `djangorestframework` documentation.
 
--[Official Django Documentation](https://docs.djangoproject.com/en/2.2/)
--[Official Rest Framework Documentation](https://www.django-rest-framework.org/)
+- [Official Django Documentation](https://docs.djangoproject.com/en/2.2/)
+- [Official Rest Framework Documentation](https://www.django-rest-framework.org/)
 
 ## Requirements
 
