@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    # we are including all our application's urls to the root directory (http://localhost:8000/)
     path('', include('art.urls')),
     path('admin/', admin.site.urls)
 ]
