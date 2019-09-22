@@ -83,7 +83,8 @@ You're all set!
 ## Now What?!
 
 The process of writing an API in a Django App is simple:
-1. Write your models in `models.py`
+1. Write your models in `models.py` (Note: Every time
+ you update your models you should run `python manage.py makemigrations && python manage.py migrate`)
 2. Define your serializers in `serializers.py`
 3. Write your views in `views.py`
 4. Connect the views to respective urls in `urls.py`
